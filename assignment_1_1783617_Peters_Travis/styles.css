@@ -1,0 +1,121 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #555;
+    padding: 0.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section styles */
+section {
+    padding: 2em;
+    margin: 2em 0;
+    text-align: justify;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply different styles to each section */
+#section1 {
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    color: #333;
+}
+
+#section2 {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    color: #333;
+}
+
+#section3 {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Apply styles to images */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+/* Apply styles to external links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile responsiveness */
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin-bottom: 0.5em;
+    }
+
+    section {
+        padding: 1em;
+    }
+}
+
+/* Basic CSS animations */
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+a {
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+}
